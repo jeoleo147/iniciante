@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>formulario</h1>
+    <header>
+        <a href="Home.html">Home</a> &nbsp;
+        <a href="texto.html">Texto</a>&nbsp;
+        <a href="Enlaces.html">Enlaces</a> &nbsp;
+        <a href="Lista.html">Lista</a> &nbsp;
+        <a href="imagenes.html">imagenes</a> &nbsp;
+        <a href="Tabla.html">Tabla</a>
+    </header>
+
+    <h2>Registro de Datos Personales</h2>
+
+    <form action="formulario" method="post">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br>
+
+        <label for="ci">C.I.:</label>
+        <input type="text" id="ci" name="ci"><br>
+
+        <label>Género:</label>
+        <label for="masculino">
+            <input type="radio" id="masculino" name="genero" value="masculino"> Masculino
+        </label>
+        <label for="femenino">
+            <input type="radio" id="femenino" name="genero" value="femenino"> Femenino
+        </label>
+        <label for="otro">
+            <input type="radio" id="otro" name="genero" value="otro"> Otro
+        </label><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+
+
+</body>
+
+</html>
